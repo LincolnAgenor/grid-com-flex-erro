@@ -1,0 +1,39 @@
+section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom: 20px;  background-color: #445261; }
+
+.container{  width: 1200px; margin: auto; }
+
+.row{ display: flex; justify-content: space-around; }
+
+.col{ width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px; border: 1px solid #f1f2f3}
+
+.row .col:nth-child(1){
+  background-color: rgb(40, 147, 246);
+}
+
+.row .col:nth-child(2){
+  background-color: rgb(143, 213, 216);
+}
+
+.row .col:nth-child(3){
+  background-color: rgb(216, 188, 143);
+}
+
+.row .col:nth-child(4){
+  background-color: rgb(228, 79, 128);
+}
+
+.row .col:nth-child(5){
+  background-color: rgb(216, 143, 212);
+}
+
+.row .col:nth-child(6){
+  background-color: rgb(166, 216, 143);
+}
+
+.row .col:nth-child(7){
+  background-color: rgb(58, 197, 209);
+}
+
+.row .col:nth-child(8){
+  background-color: rgb(78, 192, 103);
+}
