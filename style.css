@@ -1,11 +1,12 @@
-section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom: 20px;  background-color: #445261; }
+section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom: 20px; /* background-color: #445261; */ }
 
 .container{  width: 1200px; margin: auto; }
 
 .row{ display: flex; justify-content: space-around; }
 
-.col{ width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px; border: 1px solid #f1f2f3}
+.col{ width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px;/* border: 1px solid #f1f2f3 */}
 
+/* 
 .row .col:nth-child(1){
   background-color: rgb(40, 147, 246);
 }
@@ -37,3 +38,140 @@ section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom:
 .row .col:nth-child(8){
   background-color: rgb(78, 192, 103);
 }
+ */
+/* inicio seção header */
+header{
+  margin: 0px;
+  padding: 0px;
+}
+header .col{
+  padding: 0px;
+}
+
+header li{
+  list-style: none;
+}
+
+header a{
+  text-decoration: none; color: #333;
+}
+
+header .col .link{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+/* fim seção header */
+
+/* inicio seção apresentacao */
+.apresentacao{
+  color: white;
+  height: 500px;
+  background-image: url("img/chamada-bg-01.jpg");
+  background-position: center;
+}
+.apresentacao .container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+/* fim seção apresentacao */
+
+/* inicio seção servicos */
+.servicos img{
+  width: 370px; height: 250px;
+}
+
+.servicos .col{
+  padding-right: 0px;
+  box-shadow: 0px 20px 25px 0px rgb(0 0 0 / 15%);
+}
+
+.servicos .row{
+  margin-top: -200px;
+}
+/* fim seção servicos */
+
+/* inicio seção compromissos */
+.compromissos img{
+  width: 300px; height: 400px;
+}
+
+.compromissos .conteudo .col {
+  padding: 0px;
+}
+
+.compromissos .conteudo .col img{
+  border-left: 3px solid #273445;
+}
+
+.compromissos a{
+  background-color: rgb(255 26 73);
+  text-decoration: none; color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #273445 ;
+}
+/* fim seção compromissos */
+
+/* inicio seção servicos_extras */
+.servicos_extras{
+  border-top: 20px solid rgba(230, 230, 230, 1);
+  background-color: #273445;
+}
+
+.servicos_extras .entroducao{
+  color: white;
+}
+
+.servicos_extras img{
+  width: 370px; height: 250px;
+}
+
+.servicos_extras .conteudo .col{
+  padding: 0px;
+  background-color: white;
+  border-left: 3px solid rgba(255, 26, 73, 1);
+}
+/* fim seção servicos_extras */
+
+/* inicio seção carrosel */
+.carrosel img{
+  width: 370px; height: 250px;
+}
+
+/* fim seção carrosel */
+
+/* inicio seção noticias */
+.noticias{
+  margin-bottom: 0px;
+  background-color: #f7f7f7;
+}
+
+.noticias img{
+  width: 370px; height: 250px;
+}
+
+.noticias a{
+  background-color: rgb(255 26 73);
+  text-decoration: none; color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #273445 ;
+}
+/* fim seção noticias */
+
+/* inico seção footer */
+footer{
+  margin-bottom: 0px;
+  background-color:  #273445; 
+}
+
+footer .row{
+  color: white;
+}
+/* fim seção footer */
