@@ -39,6 +39,8 @@ section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom:
   background-color: rgb(78, 192, 103);
 }
  */
+
+
 /* inicio seção header */
 header{
   margin: 0px;
@@ -48,20 +50,18 @@ header .col{
   padding: 0px;
 }
 
-header li{
-  list-style: none;
-}
-
-header a{
-  text-decoration: none; color: #333;
-}
-
-header .col .link{
+header .col .link ul{
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
+}
+
+header .link a{
+  text-decoration: none; color: #333;
 }
 /* fim seção header */
+
 
 /* inicio seção apresentacao */
 .apresentacao{
@@ -77,9 +77,10 @@ header .col .link{
 }
 /* fim seção apresentacao */
 
+
 /* inicio seção servicos */
-.servicos img{
-  width: 370px; height: 250px;
+.servicos .row{
+  margin-top: -200px;
 }
 
 .servicos .col{
@@ -87,25 +88,14 @@ header .col .link{
   box-shadow: 0px 20px 25px 0px rgb(0 0 0 / 15%);
 }
 
-.servicos .row{
-  margin-top: -200px;
+.servicos .col img{
+  width: 370px; height: 250px;
 }
 /* fim seção servicos */
 
+
 /* inicio seção compromissos */
-.compromissos img{
-  width: 300px; height: 400px;
-}
-
-.compromissos .conteudo .col {
-  padding: 0px;
-}
-
-.compromissos .conteudo .col img{
-  border-left: 3px solid #273445;
-}
-
-.compromissos a{
+.compromissos .info_compromissos a{
   background-color: rgb(255 26 73);
   text-decoration: none; color: white;
   padding-top: 10px;
@@ -114,7 +104,18 @@ header .col .link{
   padding-left: 20px;
   border-left: 3px solid #273445 ;
 }
+
+.compromissos .conteudo img{
+  width: 300px; height: 400px;
+  border-left: 3px solid #273445;
+}
+
+.compromissos .conteudo .col {
+  padding: 0px;
+}
+
 /* fim seção compromissos */
+
 
 /* inicio seção servicos_extras */
 .servicos_extras{
@@ -126,23 +127,24 @@ header .col .link{
   color: white;
 }
 
-.servicos_extras img{
-  width: 370px; height: 250px;
-}
-
 .servicos_extras .conteudo .col{
   padding: 0px;
   background-color: white;
   border-left: 3px solid rgba(255, 26, 73, 1);
 }
+
+.servicos_extras .conteudo img{
+  width: 370px; height: 250px;
+}
 /* fim seção servicos_extras */
+
 
 /* inicio seção carrosel */
 .carrosel img{
   width: 370px; height: 250px;
 }
-
 /* fim seção carrosel */
+
 
 /* inicio seção noticias */
 .noticias{
@@ -150,11 +152,11 @@ header .col .link{
   background-color: #f7f7f7;
 }
 
-.noticias img{
+.noticias .conteudo img{
   width: 370px; height: 250px;
 }
 
-.noticias a{
+.noticias .conteudo a{
   background-color: rgb(255 26 73);
   text-decoration: none; color: white;
   padding-top: 10px;
@@ -164,6 +166,7 @@ header .col .link{
   border-left: 3px solid #273445 ;
 }
 /* fim seção noticias */
+
 
 /* inico seção footer */
 footer{
