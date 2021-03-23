@@ -46,12 +46,20 @@ header{
   margin: 0px;
   padding: 0px;
 }
+
+header .row{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
 header .col{
   padding: 0px;
+  margin: 0px;
 }
 
 header .col .link ul{
-  margin-top: 25px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -84,12 +92,18 @@ header .link a{
 }
 
 .servicos .col{
-  padding-right: 0px;
+  width: 370px;
+  padding: 0px;
   box-shadow: 0px 20px 25px 0px rgb(0 0 0 / 15%);
 }
 
 .servicos .col img{
   width: 370px; height: 250px;
+}
+
+.servicos .col p , .servicos .col h2{
+  margin: 10px;
+  text-align: center;
 }
 /* fim seção servicos */
 
@@ -113,7 +127,6 @@ header .link a{
 .compromissos .conteudo .col {
   padding: 0px;
 }
-
 /* fim seção compromissos */
 
 
@@ -135,6 +148,15 @@ header .link a{
 
 .servicos_extras .conteudo img{
   width: 370px; height: 250px;
+}
+
+.servicos_extras .conteudo h1{
+  text-align: center;
+}
+.servicos_extras .conteudo p{
+  margin-left: 60px;
+  text-align: center;
+  width: 250px;
 }
 /* fim seção servicos_extras */
 
@@ -176,5 +198,10 @@ footer{
 
 footer .row{
   color: white;
+}
+
+footer .atendimento h4{
+  margin-top : 8px;
+  margin-bottom: 8px;
 }
 /* fim seção footer */
