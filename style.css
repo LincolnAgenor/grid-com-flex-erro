@@ -65,7 +65,7 @@ header .col .link ul{
   list-style: none;
 }
 
-header .link a{
+header .col .link ul li a{
   text-decoration: none; color: #333;
 }
 /* fim seção header */
@@ -119,13 +119,13 @@ header .link a{
   border-left: 3px solid #273445 ;
 }
 
-.compromissos .conteudo img{
-  width: 300px; height: 400px;
-  border-left: 3px solid #273445;
-}
-
 .compromissos .conteudo .col {
   padding: 0px;
+}
+
+.compromissos .conteudo .col img{
+  width: 300px; height: 400px;
+  border-left: 3px solid #273445;
 }
 /* fim seção compromissos */
 
@@ -146,14 +146,14 @@ header .link a{
   border-left: 3px solid rgba(255, 26, 73, 1);
 }
 
-.servicos_extras .conteudo img{
+.servicos_extras .conteudo .col img{
   width: 370px; height: 250px;
 }
 
-.servicos_extras .conteudo h1{
+.servicos_extras .conteudo .col h1{
   text-align: center;
 }
-.servicos_extras .conteudo p{
+.servicos_extras .conteudo .col p{
   margin-left: 60px;
   text-align: center;
   width: 250px;
@@ -162,7 +162,7 @@ header .link a{
 
 
 /* inicio seção carrosel */
-.carrosel img{
+.carrosel .col img{
   width: 370px; height: 250px;
 }
 /* fim seção carrosel */
@@ -174,11 +174,11 @@ header .link a{
   background-color: #f7f7f7;
 }
 
-.noticias .conteudo img{
+.noticias .conteudo .col img{
   width: 370px; height: 250px;
 }
 
-.noticias .conteudo a{
+.noticias .conteudo .col a{
   background-color: rgb(255 26 73);
   text-decoration: none; color: white;
   padding-top: 10px;
@@ -203,5 +203,10 @@ footer .row{
 footer .atendimento h4{
   margin-top : 8px;
   margin-bottom: 8px;
+}
+
+footer .row .col p a{
+  text-decoration: none;
+  color: #ff1a49;
 }
 /* fim seção footer */
