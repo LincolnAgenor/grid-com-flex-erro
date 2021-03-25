@@ -77,11 +77,22 @@ header .col .link ul li a{
   height: 500px;
   background-image: url("img/chamada-bg-01.jpg");
   background-position: center;
+  margin-bottom: 100px;
 }
 .apresentacao .container{
   margin-top: 100px;
   display: flex;
   justify-content: center;
+}
+
+.apresentacao .row .col .text h1{
+  margin: 0px;
+  text-align: center;
+  font-size: 70px;
+  width: 650px;
+}
+.apresentacao .row .col p{
+  font-size: 25px;
 }
 /* fim seção apresentacao */
 
@@ -101,14 +112,43 @@ header .col .link ul li a{
   width: 370px; height: 250px;
 }
 
-.servicos .col p , .servicos .col h2{
+.servicos .col p{
   margin: 10px;
   text-align: center;
+}
+.servicos .col h2{
+  margin: 10px;
+  text-align: center;
+  width: 310px;
+  margin-left: 30px;
+}
+
+.servicos .col .text h2{
+  margin-left: 80px;
+  width: 200px;
 }
 /* fim seção servicos */
 
 
 /* inicio seção compromissos */
+.compromissos .conteudo .col {
+  padding: 0px;
+}
+
+.compromissos .info_compromissos h1{
+  font-size: 45px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+}
+
+.compromissos .info_compromissos p{
+  color: #7e8485;
+  font-size: 18px;
+}
+.compromissos .info_compromissos h6{
+  font-size: 15px;
+}
+
 .compromissos .info_compromissos a{
   background-color: rgb(255 26 73);
   text-decoration: none; color: white;
@@ -117,10 +157,6 @@ header .col .link ul li a{
   padding-bottom: 10px;
   padding-left: 20px;
   border-left: 3px solid #273445 ;
-}
-
-.compromissos .conteudo .col {
-  padding: 0px;
 }
 
 .compromissos .conteudo .col img{
@@ -140,6 +176,13 @@ header .col .link ul li a{
   color: white;
 }
 
+.servicos_extras .entroducao h1{
+  font-size: 50px;
+}
+.servicos_extras .entroducao p{
+  font-size: 20px;
+}
+
 .servicos_extras .conteudo .col{
   padding: 0px;
   background-color: white;
@@ -151,17 +194,21 @@ header .col .link ul li a{
 }
 
 .servicos_extras .conteudo .col h1{
-  text-align: center;
+  margin-left: 25px;
 }
 .servicos_extras .conteudo .col p{
-  margin-left: 60px;
-  text-align: center;
-  width: 250px;
+  margin-left: 25px;
+  width: 270px;
 }
 /* fim seção servicos_extras */
 
 
 /* inicio seção carrosel */
+.carrosel{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
 .carrosel .col img{
   width: 370px; height: 250px;
 }
@@ -170,8 +217,21 @@ header .col .link ul li a{
 
 /* inicio seção noticias */
 .noticias{
+  padding: 0px;
   margin-bottom: 0px;
   background-color: #f7f7f7;
+}
+
+.noticias .entroducao .col{
+  padding: 0px;
+}
+
+.noticias .entroducao h1{
+  font-size: 50px;
+}
+
+.noticias .entroducao p{
+  font-size: 20px;
 }
 
 .noticias .conteudo .col img{
@@ -198,6 +258,10 @@ footer{
 
 footer .row{
   color: white;
+}
+
+footer p{
+  color: #8b9094;
 }
 
 footer .atendimento h4{
