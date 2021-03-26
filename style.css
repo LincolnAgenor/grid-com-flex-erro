@@ -2,9 +2,9 @@ section, header, footer{ margin-bottom: 50px; padding-top: 20px; padding-bottom:
 
 .container{  width: 1200px; margin: auto; }
 
-.row{ display: flex; justify-content: space-around; }
+.row { display: flex; justify-content: space-around; }
 
-.col{ width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px;/* border: 1px solid #f1f2f3 */}
+.col { width: 100%; margin-bottom: 16px; margin-top: 16px; margin-left: 5px; margin-right: 5px; padding: 20px 10px;/* border: 1px solid #f1f2f3 */}
 
 /* 
 .row .col:nth-child(1){
@@ -205,12 +205,15 @@ header .col .link ul li a{
 
 /* inicio seção carrosel */
 .carrosel{
+  margin-left: 60px;
+  width: 1200px;
   padding: 0px;
   margin-bottom: 0px;
 }
 
 .carrosel .col img{
-  width: 370px; height: 250px;
+  margin: 10px;
+  width: 600px; height: 400px;
 }
 /* fim seção carrosel */
 
